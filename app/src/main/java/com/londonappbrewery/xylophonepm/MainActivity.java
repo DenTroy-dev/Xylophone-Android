@@ -42,8 +42,6 @@ public class MainActivity extends AppCompatActivity {
         mGSoundId = mSoundPool.load(getApplicationContext(), R.raw.note5_g, 1);
         mASoundId = mSoundPool.load(getApplicationContext(), R.raw.note6_a, 1);
         mBSoundId = mSoundPool.load(getApplicationContext(), R.raw.note7_b, 1);
-
-
     }
 
     // TODO: Add the play methods triggered by the buttons
